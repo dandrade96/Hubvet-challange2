@@ -62,7 +62,7 @@ class Upload
         // Error checking
         if($this->error != 0) return false;
 
-        return $this->selectedExt($this->ext);
+        return $this->selectedExt($this->extension);
     }
 
      /**
