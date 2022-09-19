@@ -66,17 +66,32 @@ class Upload
     }
     public function csv_to_array()
     {
+        //code...
         return 'csv to array';
     }
 
     public function txt_to_array()
     {
+        //code...
         return 'txt to array';
     }
 
-    public function pdf_to_array()
+    public function tls_to_array()
     {
-        return 'pdf to array';
+        //code...
+        return 'tls to array';
+    }
+
+    public function xml_to_array()
+    {
+        //code...
+        return 'xml to array';
+    }
+
+    public function xls_to_array()
+    {
+        //code...
+        return 'xls to array';
     }
 
     public function selectedExt($ext)
