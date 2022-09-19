@@ -55,45 +55,70 @@ class Upload
     }
     /**
      * 
-     * @return boolean
+     * @return array
      */
     public function run()
     {
-        //
+        // Error checking
         if($this->error != 0) return false;
 
         return $this->selectedExt($this->ext);
     }
+
+     /**
+     * 
+     * @return string
+     */
     public function csv_to_array()
     {
         //code...
         return 'csv to array';
     }
 
+     /**
+     * 
+     * @return string
+     */
     public function txt_to_array()
     {
         //code...
         return 'txt to array';
     }
 
+     /**
+     * 
+     * @return string
+     */
     public function tls_to_array()
     {
         //code...
         return 'tls to array';
     }
 
+     /**
+     * 
+     * @return string
+     */
     public function xml_to_array()
     {
         //code...
         return 'xml to array';
     }
 
+     /**
+     * 
+     * @return string
+     */
     public function xls_to_array()
     {
         //code...
         return 'xls to array';
     }
 
+     /**
+     * Select the extension
+     * @return
+     */
     public function selectedExt($ext)
     {
         switch ($ext) {
